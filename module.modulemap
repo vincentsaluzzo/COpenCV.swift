@@ -1,9 +1,11 @@
 module COpenCV [system] {
     module opencv2 {
         umbrella "/usr/local/include/opencv2"
+        export *
     }
-    header "/usr/local/include/opencv/cv.h"
-    link "OpenCV"
-    export *
-    
+    module opencv {
+        header "/usr/local/include/opencv/cv.h"
+        link "OpenCV"
+        export *
+    }
 }
