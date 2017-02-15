@@ -1,5 +1,5 @@
 module COpenCV [system] {
-    header "/usr/local/include/opencv/cv.h"
+    header "/usr/local/include/opencv2/cv.h"
     link "OpenCV"
     export *
 }
