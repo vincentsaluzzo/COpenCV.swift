@@ -1,4 +1,5 @@
 module COpenCV [system] {
+    header "/usr/local/include/opencv2/core/types_c.h"
     header "/usr/local/include/opencv2/core/core_c.h"
     header "/usr/local/include/opencv/cv.h"
     link "OpenCV"
