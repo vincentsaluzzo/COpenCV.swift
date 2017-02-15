@@ -1,9 +1,6 @@
 module COpenCV [system] {
-    header "/usr/local/include/opencv2/core/hal/interface.h"
-    header "/usr/local/include/opencv2/core/cvdef.h"
-    header "/usr/local/include/opencv2/core/types_c.h"
-    header "/usr/local/include/opencv2/core/core_c.h"
-    header "/usr/local/include/opencv/cv.h"
+    header "/usr/local/include/opencv2/*"
+    header "/usr/local/include/opencv/*"
     link "OpenCV"
     export *
     use core
