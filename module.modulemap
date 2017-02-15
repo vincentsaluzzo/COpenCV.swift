@@ -2,6 +2,7 @@ module COpenCV [system] {
     header "/usr/local/include/opencv/cv.h"
     link "OpenCV"
     export *
+    use core
 
     module core {
         header "/usr/local/include/opencv2/core/core_c.h"
