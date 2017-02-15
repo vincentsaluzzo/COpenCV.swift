@@ -4,6 +4,6 @@ module COpenCV [system] {
     export *
 
     module core {
-        header "/usr/local/include/opencv2/core_c.h"
+        header "/usr/local/include/opencv2/core/core_c.h"
     }
 }
