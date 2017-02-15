@@ -1,7 +1,5 @@
 module COpenCV [system] {
-    
-    umbrella "/usr/local/include/opencv"
-    
+    umbrella "/usr/local/include/opencv2"
     link "OpenCV"
     export *
 }
