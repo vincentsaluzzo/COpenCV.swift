@@ -1,6 +1,6 @@
 module COpenCV [system] {
-    umbrella header "/usr/local/include/opencv2/*"
-    umbrella header "/usr/local/include/opencv/*"
+    umbrella header "/usr/local/include/opencv2/"
+    umbrella header "/usr/local/include/opencv/"
     link "OpenCV"
     export *
     use core
